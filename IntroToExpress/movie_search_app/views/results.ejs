@@ -1,0 +1,9 @@
+<h1>Results Page</h1>
+
+<ul>
+<% data.Search.forEach((element) => { %>
+    <li><strong><%= element.Title %></strong><%= " - " + element.Year %></li>
+<% }); %>
+</ul>
+
+<a href="/">Search Again</a>
